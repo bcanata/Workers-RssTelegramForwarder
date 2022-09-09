@@ -10,10 +10,10 @@ node_compat = true
 [triggers]
 crons = ["0 * * * *"]
 
-#[vars]
-#RSS_URL = "https://example.com/feed"
-#TELEGRAM_TOKEN = "bot123456:abcdef"
-#TELEGRAM_CHATID = 123456
+[vars]
+RSS_URL = "https://www.upwork.com/ab/feed/topics/rss?securityToken=270b31d4a0406e94f3554c052223f5e8049cee357314941037b3bfeffcb52c5577e06097f614e4aa8e403503935563c58a5bc0a280d65f392034d13e87342158&userUid=424126307652190208&orgUid=424126307656384513"
+TELEGRAM_TOKEN = "bot5233870331:AAE3P5Fb-VYY2YH0zC4oxiT8b4KOvQLmGKE"
+TELEGRAM_CHATID = 1086689251
 
 [build]
 command = "yarn"
