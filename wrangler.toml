@@ -3,9 +3,9 @@ main = "src/index.js"
 compatibility_date = "2022-06-14"
 node_compat = true
 
-#kv_namespaces = [
-#  { binding = "KV", id = "abcdef0123", preview_id = "abcdef0123" }
-#]
+kv_namespaces = [
+  { binding = "TelegramUpwork", id = "6234b23079a945e880fddd4730230206" }
+]
 
 [triggers]
 crons = ["0 * * * *"]
